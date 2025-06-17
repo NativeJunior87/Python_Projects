@@ -7,7 +7,7 @@ from datetime import datetime
 #Server Configuration
 root = tk.Tk()
 root.withdraw()
-logo = tk.PhotoImage(file="Message.png")
+logo = tk.PhotoImage(file="z.png")
 root.iconphoto(False, logo)
 server_ip = simpledialog.askstring("Server Address", "Enter server IP address:")
 username = simpledialog.askstring("Username", "Enter your username:")
